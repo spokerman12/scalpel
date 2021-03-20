@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script type="text/javascript" src="{{ url_for('static', filename='main.js') }}"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <title>Scalpel</title>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+    <div class="container">
+        <div class="col">
+            <div class="row">
+
+            </div>
+            <div class="row">
+                To invest
+            </div>
+            <div class="row">
+                IN price
+            </div>
+            <div class="row">
+                %
+            </div>
+            <div class="row">
+                OUT price
+            </div>
+            <div class="row">
+                Profit
+            </div>
+        </div>
+        <div class="col-sm">
+            <div class="row">
+                BTC
+            </div>
+            <div class="row">
+                <input type="number" name="to_invest_btc" value="0" min="0" step="0.0000001">
+            </div>
+            <div class="row">
+                <input type="number" name="in_price_btc" value="0" min="0" step="0.0000001">
+            </div>
+            <div class="row">
+                <input type="number" name="percentage" value="0" step="0.01">
+            </div>
+            <div class="row">
+                <input type="number" name="out_price_btc" value="0" step="0.0000001">
+            </div>
+            <div class="row">
+                <input type="number" name="profit_btc" readonly value="0">
+            </div>
+        </div>
+        <div class="col-sm">
+            <div class="row">
+                USD
+            </div>
+            <div class="row">
+                <input type="number" name="to_invest_usd" value="0" min="0" step="0.01">
+            </div>
+            <div class="row">
+                <input type="number" name="in_price_usd" value="0" min="0" step="0.01">
+            </div>
+            <div class="row">
+                <input type="number" name="percentage" value="0" step="0.01">
+            </div>
+            <div class="row">
+                <input type="number" name="out_price_usd" value="0" step="0.01">
+            </div>
+            <div class="row">
+                <input type="number" name="profit_usd" readonly value="0">
+            </div>
+        </div>
+      </div>
+</body>
+
+
+
+</html>

@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+}
+
+.row{
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 30px;
+}
+
+.col{
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 30px;
+}

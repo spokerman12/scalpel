@@ -10,7 +10,7 @@ requirements: ## install development environment requirements
 run: ## run the app
 	export FLASK_APP=app.py
 	set FLASK_APP=app.py
-	flask run --host=0.0.0.0 --port=5000
+	python run.py
 
 build.dev: ## build the app on a server
 	make requirements

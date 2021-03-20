@@ -1,1 +1,1 @@
-web: make build.dev
+web: gunicorn run:app

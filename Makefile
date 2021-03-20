@@ -8,9 +8,7 @@ requirements: ## install development environment requirements
 	pip install -r requirements.txt
 
 run: ## run the app
-	export FLASK_APP=app.py
-	set FLASK_APP=app.py
-	python run.py
+	gunicorn app.app:app
 
 build.dev: ## build the app on a server
 	make requirements

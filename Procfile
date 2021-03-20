@@ -1,2 +1,2 @@
-frontend: cd frontend && ng build --aot -prod
-backend: cd scalpel && python main.py
+web: cd frontend && ng build --aot -prod
+web: cd scalpel && python main.py
